@@ -209,3 +209,32 @@ header .flag-wrapper img {
     width: 32px;
     height: 32px;
 }
+.worker-section{
+    background-color:#F8F8F8;
+    position: relative;
+}
+.worker-section-title{
+    padding-top: 90px;
+    padding-bottom: 115px;
+}
+.worker-section img{
+    position: absolute;
+    top: -40px;
+}
+
+.worker-section h1{
+    color:#56B84E;
+    font-family: "Open Sans" , sans-serif;
+    font-weight: 700;
+    size: 40px;
+    line-height: 52px;
+    margin-bottom: 30px;
+}
+.worker-section p{
+    color:#4D4D4D;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    
+}
