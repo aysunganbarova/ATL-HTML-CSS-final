@@ -84,7 +84,7 @@ header .flag-wrapper img {
 }
 
 .left-side {
-   padding-top: 38px;
+    padding-top: 38px;
 }
 
 .left-side h1 {
@@ -97,7 +97,7 @@ header .flag-wrapper img {
 
 .left-side ul {
     margin-bottom: 49px;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 
@@ -149,11 +149,12 @@ header .flag-wrapper img {
     line-height: 16px;
     margin-bottom: 6px;
 }
-.section-title{
+
+.section-title {
     text-align: center;
 }
 
-.section-title h1{
+.section-title h1 {
     font-family: "Open-sans", sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -161,8 +162,9 @@ header .flag-wrapper img {
     margin-bottom: 7px;
 
 }
-.section-title p{
-    font-family: "Roboto" , sans-serif;
+
+.section-title p {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -173,68 +175,113 @@ header .flag-wrapper img {
 
 }
 
-.pricing-section{
+.pricing-section {
     padding-top: 120px;
     padding-bottom: 130px;
 }
-.price-item{
-    background-color:#F8F8F8;
+
+.price-item {
+    background-color: #F8F8F8;
     padding: 30px 26px 30px 20px;
     border-radius: 20px;
     margin-bottom: 20px;
 
 }
-.price-item-title{
+
+.price-item-title {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     align-items: center;
 }
-.price-item-title h4{
-    font-family: "Ubuntu" , sans-serif;
+
+.price-item-title h4 {
+    font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     color: #56B84E;
     font-size: 18px;
     line-height: 20px;
 }
-.price-item p{
-    font-family: "Roboto",sans-serif;
+
+.price-item p {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color:#595959;
-    
+    color: #595959;
+
 }
-.price-item-title img{
+
+.price-item-title img {
     width: 32px;
     height: 32px;
 }
-.worker-section{
-    background-color:#F8F8F8;
+
+.worker-section {
+    background-color: #F8F8F8;
     position: relative;
 }
-.worker-section-title{
+
+.worker-section-title {
     padding-top: 90px;
     padding-bottom: 115px;
 }
-.worker-section img{
+
+.worker-section img {
     position: absolute;
     top: -40px;
 }
 
-.worker-section h1{
-    color:#56B84E;
-    font-family: "Open Sans" , sans-serif;
+.worker-section h1 {
+    color: #56B84E;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     size: 40px;
     line-height: 52px;
     margin-bottom: 30px;
 }
-.worker-section p{
-    color:#4D4D4D;
-    font-family: "Roboto" , sans-serif;
+
+.worker-section p {
+    color: #4D4D4D;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    
+
 }
+.services-section{
+    padding-top: 151px;
+    padding-bottom: 97px;
+}
+
+.services-section .section-title h1{
+    margin-bottom: 56px;
+}
+
+.services-section .service-item {
+    background: #FFFFFF;
+    border: 2px solid #E6E6E6;
+    border-radius: 20px;
+    width: 204px;
+    padding:27px 17px 50px 17px ;
+    text-align: center;
+    font-family: "Roboto" ,sans-serif;
+    margin-bottom: 20px;
+
+}
+.services-section .service-item img{
+    margin-bottom: 27px;
+}
+.services-section .service-item h4{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.services-section .service-item p {
+    font-weight: 400;
+    color:#595959;
+    line-height: 19px;
+    font-size: 14px;
+}
+
