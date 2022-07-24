@@ -566,6 +566,7 @@ header .flag-wrapper img {
     margin-bottom: 40px;
 }
 
+
 .map-section h2 {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
@@ -601,3 +602,21 @@ header .flag-wrapper img {
 .b-radius-20 {
     border-radius: 20px;
 }
+.clean-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.clean-section .left-side h1{
+    text-align: center;
+    font-family: "Open Sans" , sans-serif;
+    font-weight: 700;
+    font-size:36px;
+    line-height: 46px;
+    color: #56B84E;
+    width: 100%;
+    padding: 0 55px;
+}
+.clean-section .download-button{
+    margin-right: 17px;
+}
+
