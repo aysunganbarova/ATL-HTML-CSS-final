@@ -456,7 +456,7 @@ header .flag-wrapper img {
 
 }
 
-.testimonial-content .body{
+.testimonial-content .body {
     position: relative;
 }
 
@@ -471,26 +471,28 @@ header .flag-wrapper img {
     padding: 12px 18px;
 
 }
-.testimonial-content .body button img{
+
+.testimonial-content .body button img {
     width: 12px;
     height: 24px;
 }
 
 .testimonial-content .body button:hover {
     background: rgba(255, 255, 255, 0.2);
- 
+
 
 }
 
 .testimonial-content .arrow-left {
-    left:-37px;
+    left: -37px;
 }
 
 .testimonial-content .arrow-right {
     right: -37px;
 
 }
-.testimonial-content .dots span{
+
+.testimonial-content .dots span {
     display: inline-block;
     border-radius: 50%;
     width: 10px;
@@ -498,12 +500,68 @@ header .flag-wrapper img {
     margin-right: 10px;
     background-color: #FFFFFF;
     opacity: 0.5;
+    cursor: pointer;
 
 }
 
-.testimonial-content .dots{
+.testimonial-content .dots span.active {
+    opacity: 1;
+}
+
+
+.testimonial-content .dots {
     position: absolute;
     left: 50%;
     bottom: 35px;
     transform: translateX(-50%);
+}
+
+.offer-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.offer-section .section-title {
+    margin-bottom: 60px;
+
+}
+
+.offer-section .btn-group {
+    margin-bottom: 80px;
+}
+
+.offer-section .btn-group .btn {
+    padding: 13px 18px 13px 43px;
+    border: 2px solid #C4C4C4;
+    border-right: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #595959;
+    background-color: #fff;
+
+}
+
+.offer-section .btn-group .btn:last-child {
+    border-right: 2px solid #C4C4C4;
+}
+
+.offer-section .btn-group .btn:nth-child(2) {
+    padding: 13px 25px 13px 37px;
+}
+
+.offer-section .btn-group .btn.active {
+    color: #56B84E;
+    border-color: #56B84E;
+    font-weight: 700px;
+
+}
+
+.offer-list li img {
+    margin-right: 20px;
+}
+
+.offer-list li {
+    margin-bottom: 40px;
 }
