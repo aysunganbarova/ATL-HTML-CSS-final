@@ -565,3 +565,39 @@ header .flag-wrapper img {
 .offer-list li {
     margin-bottom: 40px;
 }
+
+.map-section h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.map-section p {
+    margin-bottom: 24px;
+    line-height: 1;
+}
+
+.map-section p img {
+    margin-right: 20px;
+
+}
+
+.bg-grey {
+    background-color: #F8F8F8;
+}
+
+.map-section .left-side {
+    padding-top: 92px;
+    padding-left: 30px;
+}
+
+.map-section .right-side {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+}
+
+.b-radius-20 {
+    border-radius: 20px;
+}
