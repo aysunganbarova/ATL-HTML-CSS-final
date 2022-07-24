@@ -83,7 +83,11 @@ header .flag-wrapper img {
     padding-bottom: 74px;
 }
 
-.left-side {
+.intro-section button{
+    margin-right: 18px;
+}
+
+.intro-section .left-side {
     padding-top: 38px;
 }
 
@@ -136,7 +140,17 @@ header .flag-wrapper img {
     border: none;
     border-radius: 10px;
     text-align: left;
-    margin-right: 18px;
+}
+
+.download-button.md{
+    padding: 10px 67px 14px 21px;
+
+}
+.download-button.md p{
+    margin-bottom: 6px;
+}
+.download-button.md h4{
+    font-size:20px
 }
 
 .download-button img {
@@ -148,6 +162,9 @@ header .flag-wrapper img {
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 6px;
+}
+.download-button.shadow{
+    filter: drop-shadow(0px 20px 30px rgba(86, 184, 78, 0.5));
 }
 
 .section-title {
@@ -284,4 +301,33 @@ header .flag-wrapper img {
     line-height: 19px;
     font-size: 14px;
 }
+.download-section{
+    background-color: #F8F8F8;
+    
+}
+.download-section h4{
+    font-family: "Open Sans" ,sans-serif;
+    font-weight: 700;
+    size: 36px;
+    line-height: 46px;
 
+
+}
+ .download-section .left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+
+}
+.download-section  h4{
+    margin-bottom: 20px;
+}
+.right-side{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
