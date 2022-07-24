@@ -398,19 +398,112 @@ header .flag-wrapper img {
     bottom: 5px;
     background-color: #56B84E;
 }
-.aboutus-section .aboutus-author h4{
+
+.aboutus-section .aboutus-author h4 {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #4D4D4D;
     line-height: 31px;
-     
+
 }
-.aboutus-section .aboutus-author p{
-    font-family: "Roboto" ,sans-serif;
+
+.aboutus-section .aboutus-author p {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #808080;
     line-height: 23px;
 
+}
+
+.testimonial-section {
+    padding-top: 60px;
+    padding-bottom: 144px;
+    background-image: url("/assets/images/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial-section .testimonial-title {
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.testimonial-section .testimonial-title h3 {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    margin-bottom: 6px;
+}
+
+.testimonial-section .testimonial-title p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 120px;
+
+}
+
+.testimonial-section .testimonial-content {
+    text-align: center;
+    position: relative;
+    height: 100%;
+
+}
+
+.testimonial-content .body{
+    position: relative;
+}
+
+
+.testimonial-content .body button {
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 3px;
+    padding: 12px 18px;
+
+}
+.testimonial-content .body button img{
+    width: 12px;
+    height: 24px;
+}
+
+.testimonial-content .body button:hover {
+    background: rgba(255, 255, 255, 0.2);
+ 
+
+}
+
+.testimonial-content .arrow-left {
+    left:-37px;
+}
+
+.testimonial-content .arrow-right {
+    right: -37px;
+
+}
+.testimonial-content .dots span{
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+
+}
+
+.testimonial-content .dots{
+    position: absolute;
+    left: 50%;
+    bottom: 35px;
+    transform: translateX(-50%);
 }
