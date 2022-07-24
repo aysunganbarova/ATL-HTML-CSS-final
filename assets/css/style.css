@@ -344,18 +344,18 @@ header .flag-wrapper img {
     height: 100%;
 }
 
-.testimonial-section {
+.aboutus-section {
     padding-top: 152px;
     padding-bottom: 120px;
 }
 
-.testimonial-section .testimonial-content {
+.aboutus-section .aboutus-content {
     padding-top: 82px;
     position: relative;
     margin-bottom: 60px;
 }
 
-.testimonial-section .testimonial-content::after {
+.aboutus-section .aboutus-content::after {
     content: "";
     width: 47px;
     height: 4px;
@@ -366,13 +366,13 @@ header .flag-wrapper img {
 
 }
 
-.testimonial-section .testimonial-content img {
+.aboutus-section .aboutus-content img {
     width: 78px;
     position: absolute;
     top: -30px;
 }
 
-.testimonial-section .testimonial-content p {
+.aboutus-section .aboutus-content p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 22px;
@@ -384,12 +384,12 @@ header .flag-wrapper img {
     color: #56B84E;
 }
 
-.testimonial-section .testimonial-content p a {
+.aboutus-section .aboutus-content p a {
     font-weight: 700;
     position: relative;
 }
 
-.testimonial-section .testimonial-content p a::before {
+.aboutus-section .aboutus-content p a::before {
     content: "";
     width: 100%;
     height: 1px;
@@ -398,7 +398,7 @@ header .flag-wrapper img {
     bottom: 5px;
     background-color: #56B84E;
 }
-.testimonial-section .testimonial-author h4{
+.aboutus-section .aboutus-author h4{
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -406,7 +406,7 @@ header .flag-wrapper img {
     line-height: 31px;
      
 }
-.testimonial-section .testimonial-author p{
+.aboutus-section .aboutus-author p{
     font-family: "Roboto" ,sans-serif;
     font-weight: 400;
     font-size: 18px;
