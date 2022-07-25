@@ -1,0 +1,37 @@
+@media screen and (max-width: 992px) {
+    header .logo-wrapper {
+        justify-content: center;
+        padding-top: 36px;
+        padding-bottom: 24px;
+    }
+
+    header .flag-wrapper {
+        justify-content: flex-end;
+        background-color: #F8F8F8;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    header .flag-wrapper p {
+        letter-spacing: 0.1em;
+    }
+
+    header .flag-wrapper img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .intro-section .left-side {
+        text-align: center;
+    }
+
+    .intro-section .left-side h1 {
+        width: 100%;
+        padding: 0 90px;
+    }
+
+    .intro-section .left-side ul li {
+        font-size: 14px;
+        list-style: 20px;
+    }
+}

@@ -8,6 +8,10 @@ ul {
     list-style-type: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 p,
 h1,
 h2,
@@ -27,6 +31,22 @@ body {
 
 header {
     font-weight: 700;
+}
+
+header .header-top {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 2.7em;
+    color: #666666;
+    opacity: 0.3;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    text-align: center;
+    background-color: #E6E6E6;
+    width: 100%;
 }
 
 header .logo-wrapper {
@@ -599,58 +619,72 @@ header .flag-wrapper img {
     padding-bottom: 70px;
 }
 
+.map-section .right-side iframe{
+    width: 100%;
+    height: 300px;
+}
+
 .b-radius-20 {
     border-radius: 20px;
 }
-.clean-section{
+
+.clean-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.clean-section .left-side h1{
+
+.clean-section .left-side h1 {
     text-align: center;
-    font-family: "Open Sans" , sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    font-size:36px;
+    font-size: 36px;
     line-height: 46px;
     color: #56B84E;
     width: 100%;
     padding: 0 55px;
 }
-.clean-section .download-button{
+
+.clean-section .download-button {
     margin-right: 17px;
 }
-.gallery-section .gallery{
+
+.gallery-section .gallery {
     display: grid;
-    grid-template-columns:5;
-    grid-template-rows:3;
+    grid-template-columns: 5;
+    grid-template-rows: 3;
 }
-footer{
+
+footer {
     background-color: #333333;
     padding-top: 65px;
     padding-bottom: 42px;
 }
-footer .footer-top h6{
-    font-family: "Open Sans",sans-serif;
+
+footer .footer-top h6 {
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 12px;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
     color: #fff;
-    opacity: 0.4;  
+    opacity: 0.4;
     letter-spacing: 0.12em;
 }
-footer .footer-top ul{
+
+footer .footer-top ul {
     color: #fff;
-    font-family: "Roboto" , sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 13px;
     opacity: 0.8;
     line-height: 13px;
 }
-footer .footer-top ul li{
+
+footer .footer-top ul li {
     margin-bottom: 1rem;
 }
-footer .footer-top h5{
-    font-family: "Ubuntu" , sans-serif;
+
+footer .footer-top h5 {
+    font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
@@ -659,16 +693,18 @@ footer .footer-top h5{
     opacity: 0.4;
     margin-bottom: 15px;
 }
-footer .footer-top a{
+
+footer .footer-top a {
     color: #fff;
-    font-family: "Open Sans" ,sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 5px;
 }
-footer .footer-top p{
-    font-family: "Roboto" ,sans-serif;
+
+footer .footer-top p {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 17px;
@@ -676,22 +712,24 @@ footer .footer-top p{
     opacity: 0.4;
     margin-bottom: 20px;
 }
-.social-buttons{
+
+.social-buttons {
     margin-top: 30px;
 }
-.social-buttons button{
+
+.social-buttons button {
     border-radius: 50px;
     border: none;
     padding: 0;
     background-color: transparent;
 }
 
-.social-buttons button img{
+.social-buttons button img {
     width: 30px;
     height: 30px;
 }
 
-.copyright{
+.copyright {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 14px;
