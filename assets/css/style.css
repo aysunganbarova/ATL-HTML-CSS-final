@@ -420,7 +420,7 @@ header .flag-wrapper img {
 .testimonial-section {
     padding-top: 60px;
     padding-bottom: 144px;
-    background-image: url("/assets/images/bg-1.png");
+    background-image: url("../images/bg-1.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -619,4 +619,83 @@ header .flag-wrapper img {
 .clean-section .download-button{
     margin-right: 17px;
 }
+.gallery-section .gallery{
+    display: grid;
+    grid-template-columns:5;
+    grid-template-rows:3;
+}
+footer{
+    background-color: #333333;
+    padding-top: 65px;
+    padding-bottom: 42px;
+}
+footer .footer-top h6{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 15px; 
+    color: #fff;
+    opacity: 0.4;  
+    letter-spacing: 0.12em;
+}
+footer .footer-top ul{
+    color: #fff;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 0.8;
+    line-height: 13px;
+}
+footer .footer-top ul li{
+    margin-bottom: 1rem;
+}
+footer .footer-top h5{
+    font-family: "Ubuntu" , sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    color: #fff;
+    opacity: 0.4;
+    margin-bottom: 15px;
+}
+footer .footer-top a{
+    color: #fff;
+    font-family: "Open Sans" ,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+footer .footer-top p{
+    font-family: "Roboto" ,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #fff;
+    opacity: 0.4;
+    margin-bottom: 20px;
+}
+.social-buttons{
+    margin-top: 30px;
+}
+.social-buttons button{
+    border-radius: 50px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
 
+.social-buttons button img{
+    width: 30px;
+    height: 30px;
+}
+
+.copyright{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.4;
+    padding-top: 50px;
+}
