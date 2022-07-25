@@ -648,11 +648,16 @@ header .flag-wrapper img {
     margin-right: 17px;
 }
 
-.gallery-section .gallery {
+.gallery-section{
     display: grid;
-    grid-template-columns: 5;
-    grid-template-rows: 3;
+    width: 100%;
+    grid-template-columns:repeat(9,1fr) ;
+    
+   
 }
+
+   
+
 
 footer {
     background-color: #333333;
